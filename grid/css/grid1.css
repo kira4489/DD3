@@ -1,0 +1,48 @@
+body{
+    background: #F5f7f8;
+}
+
+#grid{
+ padding: 15px;
+ height: 500px;
+ display: grid;
+ grid-template-columns: repeat( 3, 1fr);
+ gap: 5px;
+}
+
+#grid article{
+    color: white;
+   /* background: orange;*/
+    padding: 20px;
+}
+
+#item-1 {
+ background: #b03532;
+}
+
+#item-2{
+    background: #33a8a5;
+}
+
+#item-3{
+    background: orange;
+}
+
+#item-4{
+    background: palegoldenrod;
+}
+#item-5{
+    background: paleturquoise;
+}
+#item-6{
+    background: peru;
+}
+#item-7{
+    background: red;
+}
+#item-8{
+    background: salmon;
+}
+#item-9{
+    background: slategray;
+}
